@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parkour Simple</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-shell">
+      <canvas id="game" width="960" height="540" aria-label="Juego de parkour"></canvas>
+      <div class="hud">
+        <div><span>Monedas</span><strong id="coinCount">0</strong></div>
+        <div><span>Meta</span><strong id="goalStatus">No</strong></div>
+      </div>
+      <div class="panel" id="messagePanel">
+        <h1>Parkour Simple</h1>
+        <p>Usa A/D o ←/→ para correr</p>
+        <p>Barra espaciadora para saltar</p>
+        <p>Recoge las monedas y llega a la meta.</p>
+        <button id="startButton">Empezar</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
